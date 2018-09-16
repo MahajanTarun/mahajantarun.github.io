@@ -180,10 +180,10 @@ pre {
 	border-radius:0;
 }
 
-blockquote {
+/*blockquote {
     border-left: 5px solid #2196F3;
 	background:#fff;
-}
+}*/
 
 .blockquote-reverse, blockquote.pull-right {
     border-right: 5px solid #2196F3;

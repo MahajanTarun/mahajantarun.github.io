@@ -1,0 +1,14 @@
+svg {
+  height: 50%;
+  width: 50%;
+}
+path {
+  fill: #f1f1f1;
+  stroke: skyblue;
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+/*path:hover {
+  fill: aliceblue;
+  stroke: lightskyblue;
+}*/
