@@ -1,0 +1,98 @@
+#about-me .banner {
+		position:relative;
+		padding: 30px 20px 15px;
+		background:#F6C72E;
+		text-align:center;
+	}
+
+@media only screen and (max-width:640px) {
+		#about-me .banner {
+			left:0 !important;
+			opacity:1 !important;
+		}
+		
+		.input {
+			width:90%;	
+		}
+	}
+
+#about-me .banner {
+			width:1771px; min-height:248px;
+			padding: 30px;
+			background:url(../img/banner-aboutme.svg) no-repeat center center;
+			background-size: cover;
+			text-align:left;
+		}
+			
+#about-me .banner {
+		position:relative;
+		padding: 30px 20px 15px;
+		background:#F6C72E;
+		text-align:center;
+	}
+
+@media only screen and (max-width:640px) {
+		#about-me .banner {
+			left:0 !important;
+			opacity:1 !important;
+		}
+		
+		.input {
+			width:90%;	
+		}
+	}
+
+#about-me .banner {
+			width:1771px; min-height:248px;
+			padding: 30px;
+			background:url(../img/banner-aboutme.svg) no-repeat center center;
+			background-size: cover;
+			text-align:left;
+		}
+
+.skrollable {
+		position: absolute;
+		z-index: 100;
+	}
+
+.intro {
+		font-size:18px;
+		font-weight:400;
+		color:#fff;
+	}
+
+.title-wrapper {
+		display: inline-block;
+	}
+
+#contact-form-wrapper .title-wrapper h3 {
+		margin: 0 0 10px;
+		font-size: 40px;
+		line-height: 40px;
+		font-weight: 800;
+		color: #ffffff;
+		text-transform: uppercase;
+	}
+
+#contact-form-wrapper .title-wrapper hr {
+		height: 5px;
+		border: 1px solid #40BFCB;
+		border-radius: 7px 7px 7px 7px;
+		background-color: #40BFCB;
+		margin-bottom: 0;				
+	}
+
+#contact-form-wrapper .title-wrapper {
+			min-width: 310px;	
+		}
+
+#contact-form-wrapper .title-wrapper h3 {
+			padding: 0 10% 0 0;
+			font-size: 50px;
+			line-height: 50px;
+		}
+
+.abt {
+	background: #ffffff;
+    font-family: 'Dosis', sans-serif;
+}

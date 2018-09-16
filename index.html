@@ -14,6 +14,7 @@
 <link rel="icon" href="index_files/images/TLogo.ico">
 <link rel="stylesheet" href="index_files/css/master.css">
 <link rel="stylesheet" href="index_files/css/responsive.css">
+<link rel="stylesheet" href="index_files/css/about.css">
 </head>
 <body>
 
@@ -25,7 +26,7 @@
 </div>
 <!--=== Loader End ======-->
 
-<!--=== Wrapper Start ======-->
+<!--=== Wrapper Start ======-->`
 <div class="wrapper">
 
   <!--=== Header Start ======-->
@@ -46,6 +47,7 @@
           <ul class="nav navbar-nav navbar-right" data-in="fadeInLeft">
             <li class="scroll active"><a href="#home"><i class="fa fa-home"></i> Home</a></li>
             <li class="scroll"><a href="#about"><i class="fa fa-user"></i> About Me</a></li>
+            <li class="scroll"><a href="#skills"><i class="fa fa-user"></i> My Skills</a></li>
             <li class="scroll"><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
             <li class="scroll"><a href="#resume"><i class="fa fa-file-text"></i> Resume</a></li>
             <li class="scroll"><a href="#contact"><i class="fa fa-phone"></i> Contact Me</a></li>
@@ -83,44 +85,70 @@
   </section>
   <!--=== Parallax End ======-->
   
-  <!--=== Who We Are Start ======-->
-  <section class="main-section" id="about">
-    <div class="container">
+  <!-- About Me -->
+  <section class="main-section" id="about" style="background-color: #ffffff;">
+  	<!-- <div class="container"> -->
       <div class="row">
+        <div class="col-sm-4">
+          <img src="index_files/images/innovator.gif">
+        </div>
         <div class="col-sm-8 section-heading">
           <h2 class="text-uppercase">About Me</h2>
           <div class="mt-30">
+            <p style="font-size: 20px;">I am passionate about machines and computer, but in love with code. That's right! Half programmer, half hobbyist. I have strong programming skills and a great eye for building machines, but I am definitely more of a geek than an artist.
+            </p>
+          </div>
+        </div>
+      </div>
+  	<!-- </div> -->
+  </section>
+  <!-- About Me -->
+
+  <!--=== My Skills ======-->
+  <section class="main-section" id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 section-heading">
+          <h2 class="text-uppercase">My Skills</h2>
+          <div class="mt-30">
             <!-- Hello This is Tarun Mahajan a Creative Fullstack web & mobile app developer and DIY Hobbyist Based on India, Gujarat. I Have 2+ Years Experience in web and mobile app development. Currently Work at TechSamarthyam, as machine learning app developer. Hire me for more...  -->
-            <p>I am passionate about machines and computer, but in love with code. That's right! Half programmer, half hobbyist. I have strong programming skills and a great eye for building machines, but I am definitely more of a geek than an artist.
+            <p style="font-size: 20px;">Addicted to challenges, discovering new frameworks and experiencing new technolopgies. Always looking for the best way to solve a problem, no matter the language, time or dedication that it requires.
             </p>
           </div>
         </div>
       </div>
       <div class="row mt-50">
         <div class="col-md-6 resume-bar">
-          <div class="progress-bar-title">UI/ UX Design</div>
+          <div class="progress-bar-title">Java Technologies</div>
           <div class="progress">
-            <div class="progress-bar" data-width="80"> <span>80%</span> </div>
+            <div class="progress-bar" data-width="65"> <span>65%</span> </div>
           </div>
-          <div class="progress-bar-title">Web Development</div>
+          <div class="progress-bar-title">Mobile Application Development</div>
+          <div class="progress">
+            <div class="progress-bar" data-width="85"> <span>85%</span> </div>
+          </div>
+          <div class="progress-bar-title">FullStack Application(JS)</div>
+          <div class="progress">
+            <div class="progress-bar" data-width="80"> <span>8%</span> </div>
+          </div>
+          <div class="progress-bar-title">Computer Vision</div>
           <div class="progress">
             <div class="progress-bar" data-width="55"> <span>55%</span> </div>
           </div>
-          <div class="progress-bar-title">jQuery</div>
+          <div class="progress-bar-title">IoT and Hardware Technologies</div>
           <div class="progress">
-            <div class="progress-bar" data-width="75"> <span>75%</span> </div>
+            <div class="progress-bar" data-width="70"> <span>70%</span> </div>
           </div>
-          <div class="progress-bar-title">Branding</div>
+          <div class="progress-bar-title">Machine Learning & AI</div>
           <div class="progress">
-            <div class="progress-bar" data-width="99"> <span>99%</span> </div>
+            <div class="progress-bar" data-width="45"> <span>45%</span> </div>
           </div>
-          <div class="progress-bar-title">App Development</div>
-          <div class="progress">
-            <div class="progress-bar" data-width="48"> <span>48%</span> </div>
+          <div class="">
+          	<h5>This graph is a representation of my current comfort level and skill in each language.</h5>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-md-6 counter text-center col-sm-6"> <i class="mdi mdi-clock blue-icon font-30px"></i>
               <h2 class="count blue-color font-700">24</h2>
               <h3 class="blue-color">Working Hours</h3>
@@ -137,8 +165,14 @@
               <h2 class="count blue-color font-700">66</h2>
               <h3 class="blue-color">Projects Won</h3>
             </div>
+          </div> -->
+          <div class="row" style="padding: 0 10% 0 10%;">
+          	<p style="font-size: 30px;">One of the things I love the most about coding is that you never stop learning.</p>
           </div>
         </div>
+      </div>
+      <div class="mt-30">
+      	<h3>(I believe there’s no way anyone could know even close to a 100% of any programming language)</h3>
       </div>
     </div>
   </section>
@@ -147,14 +181,22 @@
   <!--=== Portfolio Start ======-->
   <section class="pt-0 pb-0" id="portfolio">
     <div class="container-fluid">
+      <div class="row" align="center">
+      	 <div class="section-heading">
+          <h3 class="text-uppercase">I have worked on all kind of projects, here is a sample of what I´ve done.</h3>
+            <!-- <div class="mt-30">
+            	<p style="font-size: 20px;">I have worked on all kind of web projects, here is a sample of what I´ve done.</p>
+            </div> -->
+      	 </div>
+      </div>
       <div class="row">
         <div class="portfolio-container text-center">
           <ul id="portfolio-filter" class="list-inline filter-transparent">
             <li class="active" data-group="all">All</li>
-            <li data-group="design">Design</li>
-            <li data-group="web">Web</li>
-            <li data-group="branding">Branding</li>
-            <li data-group="print">Print</li>
+            <li data-group="design">Java & Desktop App</li>
+            <li data-group="web">Mobile & Web App</li>
+            <li data-group="branding">Machine Learning</li>
+            <li data-group="print">Hardware & IoT</li>
           </ul>
           <ul id="portfolio-grid" class="three-column hover-two">
             <li class="portfolio-item" data-groups='["all", "print", "branding"]'>
@@ -390,15 +432,18 @@
         <div class="col-md-12 text-center">
           <ul class="social-media">
             <li><a href="#" class="fa fa-facebook"></a></li>
-            <li><a href="#" class="fa fa-dribbble"></a></li>
-            <li><a href="#" class="fa fa-behance"></a></li>
-            <li><a href="#" class="fa fa-instagram"></a></li>
-            <li><a href="#" class="fa fa-linkedin"></a></li>
+            <!-- <li><a href="#" class="fa fa-dribbble"></a></li> -->
+            <li><a href="https://github.com/MahajanTarun" class="fa fa-github"></a></li>
+            <!-- <li><a href="#" class="fa fa-instagram"></a></li> -->
+            <li><a href="https://www.linkedin.com/in/tarunmahajan2017/" class="fa fa-linkedin"></a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+  <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="tarunmahajan2017"><a class="LI-simple-link" href='https://in.linkedin.com/in/tarunmahajan2017?trk=profile-badge'>Tarun Mahajan</a></div> -->
   <!--=== Footer End ======-->
   
   <!--=== GO TO TOP  ===-->
