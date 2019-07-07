@@ -435,8 +435,7 @@
       </div>
       <div class="row mt-50">
         <div class="col-sm-12 col-md-offset-2 col-md-8">
-          <form name="contact-form" class="contact-me" id="gform" action="php/contact.php" method="POST"
-          action="https://script.google.com/macros/s/AKfycbz-jEB8UnL59UBZj6Qd2Mtp_LjDjEzkHUMvqmJ3Bw/exec">
+          <form name="contact-form" class="contact-me" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbz-jEB8UnL59UBZj6Qd2Mtp_LjDjEzkHUMvqmJ3Bw/exec">
             <div class="messages"></div>
             <div class="form-group">
               <label class="sr-only" for="name">Name</label>
@@ -495,6 +494,9 @@
   <!--=== GO TO TOP End ===-->
   
 </div>
+<div style="display: none;" id="thankyou_message">
+	<h1><em>Thanks</em> for contacting me! I will get back soon.</h1>
+</div>
 <!--=== Wrapper End ======-->
 
 <!--=== Javascript Plugins ======-->
@@ -504,6 +506,8 @@
 <script src="index_files/js/plugins.js"></script>
 <script src="index_files/js/master.js"></script>
 <script src="index_files/js/bootsnav.js"></script>
+<script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 <script>
 var canvas = document.querySelector("canvas");
 canvas.width = canvas.clientWidth;
@@ -605,8 +609,6 @@ function draw() {
 loop();
 //# sourceURL=pen.js
 </script>
-<script data-cfasync="false" type="text/javascript"
-src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 <!--=== Javascript Plugins End ======-->
 </body>
 </html>
