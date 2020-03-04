@@ -11,11 +11,11 @@
 
 <!-- Recaptcha here -->
 	 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-	<script>
+<!-- 	<script>
        function onSubmit(token) {
          document.getElementById("demo-form").submit();
        }
-     </script>
+     </script> -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Hi. I am Tarun Mahajan</title>
 <link rel="icon" href="index_files/images/TLogo.ico">
@@ -460,8 +460,9 @@
               <div class="help-block with-errors mt-20"></div>
             </div>
             <p class="text-center">
-              <button type="submit" name="submit" class="btn btn-color btn-circle g-recaptcha"  data-sitekey="6Lcbjt4UAAAAACHjxtJR9MEj17RbWIoVCNcYP8dx" data-callback='onSubmit'>Send Request <i class="mdi mdi-email"></i></button>
+              <button type="submit" name="submit" class="btn btn-color btn-circle" >Send Request <i class="mdi mdi-email"></i></button>
               <!-- <input type="submit" value="Submit"> -->
+		  <div class="g-recaptcha"  data-sitekey="6Lcbjt4UAAAAACHjxtJR9MEj17RbWIoVCNcYP8dx"></div>
             </p>
           </form>
         </div>
